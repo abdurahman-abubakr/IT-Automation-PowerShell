@@ -19,8 +19,8 @@ Practical PowerShell scripts for IT administration, Microsoft 365, identity mana
 
 | Script | Description | Status |
 |---|---|---|
-| [M365 User & License Report](Microsoft365/Get-M365UserLicenseReport.ps1) | Exports Microsoft 365 users, account status, and assigned licenses to CSV | Added; testing pending |
-| [Windows Health Report](SystemMonitoring/Get-WindowsHealthReport.ps1) | Reports CPU usage, memory, disk space, and stopped automatic services | Added; testing pending |
+| [M365 User & License Report](Microsoft365/Get-M365UserLicenseReport.ps1) | Exports Microsoft 365 users, account status, and assigned licenses to CSV | Tested successfully on Windows 11 |
+| [Windows Health Report](SystemMonitoring/Get-WindowsHealthReport.ps1) | Reports CPU usage, memory, disk space, and stopped automatic services | Tested successfully on Windows 11 |
 
 ## Microsoft 365 User & License Report
 
