@@ -13,11 +13,16 @@ Practical PowerShell scripts for IT administration, Microsoft 365, identity mana
 ![Microsoft Graph](https://img.shields.io/badge/Microsoft_Graph-0078D4?style=flat-square)
 ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=flat-square)
 
+
+## Available Scripts
+
+
 ## Available Scripts
 
 | Script | Description | Status |
 |---|---|---|
-| [M365 User & License Report](Microsoft365/Get-M365UserLicenseReport.ps1) | Exports Microsoft 365 user accounts, account status, and assigned licenses to CSV | Added; testing pending |
+| [M365 User & License Report](Microsoft365/Get-M365UserLicenseReport.ps1) | Exports Microsoft 365 users, account status, and assigned licenses to CSV | Added; testing pending |
+| [Windows Health Report](SystemMonitoring/Get-WindowsHealthReport.ps1) | Reports CPU usage, memory, disk space, and stopped automatic services | Added; testing pending |
 
 ## Microsoft 365 User & License Report
 
@@ -58,10 +63,61 @@ The script generates a CSV file containing:
 
 ## Planned Improvements
 
-- Active Directory reporting
-- Endpoint security checks
-- Windows Server health monitoring
-- Additional Microsoft 365 administration reports
+## Windows Health Report
+
+A read-only PowerShell script for checking Windows Server and workstation health.
+
+### Requirements
+- Windows PowerShell 5.1 or later
+- Windows operating system
+- Access to local system information
+
+### Run
+
+```powershell
+.\SystemMonitoring\Get-WindowsHealthReport.ps1
+```
+
+### Output
+
+Generates `Windows-Health-Report.csv` containing:
+- Computer name and operating system
+- Last boot time
+- CPU load percentage
+- Total and free RAM
+- Available disk space
+- Count of stopped automatic services
+
+**Status:** Added; execution testing pending.
+
+
+## Windows Health Report
+
+A read-only PowerShell script for monitoring Windows Server and workstation health.
+
+### Requirements
+- Windows PowerShell 5.1 or later
+- Windows operating system
+- Access to local system information
+
+### Run
+
+```powershell
+.\SystemMonitoring\Get-WindowsHealthReport.ps1
+```
+
+### Output
+
+Generates `Windows-Health-Report.csv` containing:
+
+- Computer name and operating system
+- Last boot time
+- CPU load percentage
+- Total and free RAM
+- Available disk space
+- Count of stopped automatic services
+
+**Status:** Added; execution testing pending.
 
 ## Security
 
