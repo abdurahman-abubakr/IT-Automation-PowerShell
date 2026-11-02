@@ -14,8 +14,6 @@ Practical PowerShell scripts for IT administration, Microsoft 365, identity mana
 ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=flat-square)
 
 
-## Available Scripts
-
 
 ## Available Scripts
 
